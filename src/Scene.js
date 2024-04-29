@@ -30,7 +30,7 @@ export default class Scene extends Phaser.Scene {
         
         this.load.scenePlugin({
             key: 'rexuiplugin',
-            url: './src/plugin/rexuiplugin.min.js',
+            url: 'https://muhamaddev.github.io/myFKFirstGameInPhaser/src/plugin/rexuiplugin.min.js',
             sceneKey: 'rexUI'
         });
     
