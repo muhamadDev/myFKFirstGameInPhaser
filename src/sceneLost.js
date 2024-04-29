@@ -7,7 +7,7 @@ export default class SceneLost extends Phaser.Scene {
     }
     
     preload() {
-        this.load.image('loseText', '../assets/ui/loseText.png')
+        this.load.image('loseText', 'https://muhamaddev.github.io/myFKFirstGameInPhaser/assets/ui/loseText.png')
     }
     
     create() {
