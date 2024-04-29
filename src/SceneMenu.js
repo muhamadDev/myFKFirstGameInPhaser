@@ -4,10 +4,10 @@ export default class SceneMenu extends Phaser.Scene {
     }
     
     preload() {
-        this.load.setBaseURL('https://muhamaddev.github.io/myFKFirstGameInPhaser/');
+        //this.load.setBaseURL('https://muhamaddev.github.io/myFKFirstGameInPhaser/');
         
         for (var i = 1; i < 6; i++) {
-            this.load.image(`bg${i}`, `assets/parallaxEffect/${i}.png`);
+            this.load.image(`bg${i}`, `https://muhamaddev.github.io/myFKFirstGameInPhaser/assets/parallaxEffect/${i}.png`);
         }
         
         this.load.image(`GUIContainer`, `assets/ui/GUIContainer.png`);
