@@ -1,5 +1,5 @@
 export default function preload() {
-    this.load.setBaseURL('assets/');
+    this.load.setBaseURL('https://github.com/muhamadDev/myFKFirstGameInPhaser');
     
     this.load.image('map', '/assets/sprite/map.jpeg');
 
