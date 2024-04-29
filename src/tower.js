@@ -99,7 +99,7 @@ export default class Tower {
         .setInteractive();
         
         upgrade.on("pointerdown", () => {
-            // if (this.scene.Dude.data.values.energy <= 90) return;
+            if (this.scene.Dude.data.values.energy <= 90) return;
             if (this.level > 6) return;
             
             this.tower
