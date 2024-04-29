@@ -10,21 +10,21 @@ export default class SceneMenu extends Phaser.Scene {
             this.load.image(`bg${i}`, `assets/parallaxEffect/${i}.png`);
         }
         
-        this.load.image(`GUIContainer`, `/assets/ui/GUIContainer.png`);
+        this.load.image(`GUIContainer`, `assets/ui/GUIContainer.png`);
         
-        this.load.spritesheet("GUI", "/assets/ui/GUI.png", {
+        this.load.spritesheet("GUI", "assets/ui/GUI.png", {
             frameWidth: 49,
             frameHeight: 16 ,
             frameRate: 1
         });
         
-        this.load.spritesheet("GUIText", "/assets/ui/GUIText.png", {
+        this.load.spritesheet("GUIText", "assets/ui/GUIText.png", {
             frameWidth: 26,
             frameHeight: 9,
             frameRate: 1
         });
         
-        this.load.audio('music', ['/assets/audio/music.ogg', '/assets/audio/music.mp3']);
+        this.load.audio('music', ['assets/audio/music.ogg', 'assets/audio/music.mp3']);
         
     }
     
