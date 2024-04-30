@@ -108,6 +108,7 @@ export default class Tower {
             
             
             this.scene.Dude.data.values.energy = 0;
+            this.scene.status.updateEnergy();
             this.level++
             
             
