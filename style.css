@@ -6,7 +6,7 @@ body {
     box-sizing: border-box;
 }
 canvas {
-    width: 100%;
+    
     user-select: none;
     -ms-user-select: none;
     -moz-user-select: none;
